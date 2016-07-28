@@ -1,0 +1,296 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C406F6C71D4A02C800740B7A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C406F6C61D4A02C800740B7A /* AppDelegate.m */; };
+		C406F6CA1D4A02C800740B7A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C406F6C91D4A02C800740B7A /* main.m */; };
+		C406F6CD1D4A02C800740B7A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C406F6CC1D4A02C800740B7A /* ViewController.m */; };
+		C406F6CF1D4A02C800740B7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C406F6CE1D4A02C800740B7A /* Assets.xcassets */; };
+		C406F6D21D4A02C800740B7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C406F6D01D4A02C800740B7A /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C406F6C21D4A02C800740B7A /* MacDownloader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacDownloader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C406F6C51D4A02C800740B7A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C406F6C61D4A02C800740B7A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C406F6C91D4A02C800740B7A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C406F6CB1D4A02C800740B7A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C406F6CC1D4A02C800740B7A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C406F6CE1D4A02C800740B7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C406F6D11D4A02C800740B7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C406F6D31D4A02C800740B7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C406F6BF1D4A02C800740B7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C406F6B91D4A02C800740B7A = {
+			isa = PBXGroup;
+			children = (
+				C406F6C41D4A02C800740B7A /* MacDownloader */,
+				C406F6C31D4A02C800740B7A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C406F6C31D4A02C800740B7A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C406F6C21D4A02C800740B7A /* MacDownloader.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C406F6C41D4A02C800740B7A /* MacDownloader */ = {
+			isa = PBXGroup;
+			children = (
+				C406F6C51D4A02C800740B7A /* AppDelegate.h */,
+				C406F6C61D4A02C800740B7A /* AppDelegate.m */,
+				C406F6CB1D4A02C800740B7A /* ViewController.h */,
+				C406F6CC1D4A02C800740B7A /* ViewController.m */,
+				C406F6CE1D4A02C800740B7A /* Assets.xcassets */,
+				C406F6D01D4A02C800740B7A /* Main.storyboard */,
+				C406F6D31D4A02C800740B7A /* Info.plist */,
+				C406F6C81D4A02C800740B7A /* Supporting Files */,
+			);
+			path = MacDownloader;
+			sourceTree = "<group>";
+		};
+		C406F6C81D4A02C800740B7A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C406F6C91D4A02C800740B7A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C406F6C11D4A02C800740B7A /* MacDownloader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C406F6D61D4A02C800740B7A /* Build configuration list for PBXNativeTarget "MacDownloader" */;
+			buildPhases = (
+				C406F6BE1D4A02C800740B7A /* Sources */,
+				C406F6BF1D4A02C800740B7A /* Frameworks */,
+				C406F6C01D4A02C800740B7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MacDownloader;
+			productName = MacDownloader;
+			productReference = C406F6C21D4A02C800740B7A /* MacDownloader.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C406F6BA1D4A02C800740B7A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = __company__;
+				TargetAttributes = {
+					C406F6C11D4A02C800740B7A = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = C406F6BD1D4A02C800740B7A /* Build configuration list for PBXProject "MacDownloader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C406F6B91D4A02C800740B7A;
+			productRefGroup = C406F6C31D4A02C800740B7A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C406F6C11D4A02C800740B7A /* MacDownloader */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C406F6C01D4A02C800740B7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C406F6CF1D4A02C800740B7A /* Assets.xcassets in Resources */,
+				C406F6D21D4A02C800740B7A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C406F6BE1D4A02C800740B7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C406F6CD1D4A02C800740B7A /* ViewController.m in Sources */,
+				C406F6CA1D4A02C800740B7A /* main.m in Sources */,
+				C406F6C71D4A02C800740B7A /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C406F6D01D4A02C800740B7A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C406F6D11D4A02C800740B7A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C406F6D41D4A02C800740B7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C406F6D51D4A02C800740B7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C406F6D71D4A02C800740B7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MacDownloader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bob.MacDownloader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C406F6D81D4A02C800740B7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MacDownloader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bob.MacDownloader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C406F6BD1D4A02C800740B7A /* Build configuration list for PBXProject "MacDownloader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C406F6D41D4A02C800740B7A /* Debug */,
+				C406F6D51D4A02C800740B7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C406F6D61D4A02C800740B7A /* Build configuration list for PBXNativeTarget "MacDownloader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C406F6D71D4A02C800740B7A /* Debug */,
+				C406F6D81D4A02C800740B7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C406F6BA1D4A02C800740B7A /* Project object */;
+}
